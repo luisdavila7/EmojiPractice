@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmojiPractice", "EmojiPractice\EmojiPractice.csproj", "{D45AAD88-6396-450D-A844-7F666ED6579E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D45AAD88-6396-450D-A844-7F666ED6579E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45AAD88-6396-450D-A844-7F666ED6579E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45AAD88-6396-450D-A844-7F666ED6579E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45AAD88-6396-450D-A844-7F666ED6579E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2323A309-E906-4757-B51F-D98AD5ECE7AF}
+	EndGlobalSection
+EndGlobal
