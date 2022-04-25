@@ -38,6 +38,7 @@
             this.buttonBlue = new System.Windows.Forms.Button();
             this.buttonGray = new System.Windows.Forms.Button();
             this.buttonGreen = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -140,12 +141,23 @@
             this.buttonGreen.UseVisualStyleBackColor = true;
             this.buttonGreen.Click += new System.EventHandler(this.buttonGreen_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(343, 43);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Smile face project";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(807, 453);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonGreen);
             this.Controls.Add(this.buttonGray);
             this.Controls.Add(this.buttonBlue);
@@ -177,5 +189,6 @@
         private System.Windows.Forms.Button buttonBlue;
         private System.Windows.Forms.Button buttonGray;
         private System.Windows.Forms.Button buttonGreen;
+        private System.Windows.Forms.Label label3;
     }
 }
